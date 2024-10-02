@@ -1,0 +1,11 @@
+{
+    "name": "renzerolim",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "frontend:start": "yarn workspace frontend run dev",
+        "frontend:build": "yarn workspace frontend run build"
+    }
+}
