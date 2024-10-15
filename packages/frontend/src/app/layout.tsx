@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Marcellus_SC } from "next/font/google";
 import "./globals.css";
+import AppHeader from "@/components/header";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const marcelusSC = Marcellus_SC({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: '400'
 });
 
 export const metadata: Metadata = {
@@ -24,10 +20,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="retro">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${marcelusSC} antialiased`}
       >
+        <AppHeader/>
         {children}
       </body>
     </html>

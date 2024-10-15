@@ -13,13 +13,16 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        home_block_1: 'url("/assets/bg/block_1.png")',
+      },
     },
   },
   plugins: [
     daisyui,
   ],
   daisyui: {
-    themes: ["light", "dark"],
+    themes: ["retro"],
   },
 };
 export default config;
