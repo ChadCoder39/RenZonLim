@@ -1,6 +1,6 @@
 export default function CalculateBlock1() {
     return (
-        <div className="min-h-screen bg-[#352920] p-10 flex flex-col items-center justify-center text-[#eae2d7]">
+        <div className="min-h-screen bg-[#352920] mt-36 p-10 flex flex-col items-center justify-center text-[#eae2d7]">
 
             <h1 className="text-center text-3xl md:text-5xl font-bold mb-10">CALCULATE THE COST OF YOUR REPAIR</h1>
             <p className="text-center text-lg mb-8">BY ANSWERING 4 QUESTIONS</p>
@@ -61,10 +61,7 @@ export default function CalculateBlock1() {
             </div>
 
             <button className="bg-[#554B42] hover:bg-[#695F56] text-white py-4 px-8 rounded">CALCULATE</button>
-
-            <div className="mt-6">
-                <p>Your Approximate Cost: <span className="font-bold">___</span></p>
-            </div>
+                <p>Your Approximate Cost:  <span className="font-bold"> _________</span></p>
         </div>
     );
 }
