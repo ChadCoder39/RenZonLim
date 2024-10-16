@@ -2,7 +2,7 @@ export default function CalculateBlock1() {
     return (
         <div className="min-h-screen mt-36 p-10 flex flex-col items-center justify-center">
 
-            <h1 className="text-center text-3xl md:text-5xl font-bold mb-10">CALCULATE THE COST OF YOUR REPAIR</h1>
+            <h1 className="text-center text-3xl md:text-5xl font-bold mb-5">CALCULATE THE COST OF YOUR REPAIR</h1>
             <p className="text-center text-lg mb-8">BY ANSWERING 4 QUESTIONS</p>
             
             <div className="flex flex-col">

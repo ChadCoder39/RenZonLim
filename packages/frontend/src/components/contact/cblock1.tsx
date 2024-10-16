@@ -3,7 +3,7 @@ import ShiftedTextHeader from "../shifted-text-header";
 export default function ContactBlock1() {
   return (
     <div className="relative flex flex-col lg:flex-row p-10 items-center justify-between text-[#322920] max-w-[1400px] mx-auto mt-36">
-        {/* Header - CONTACT US */}
+
         <div className="absolute top-0 left-0 w-full text-center z-10">
           <ShiftedTextHeader leftText="CONTACT" rightText="US" />
         </div>
