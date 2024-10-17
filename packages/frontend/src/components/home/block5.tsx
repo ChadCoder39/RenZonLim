@@ -44,7 +44,7 @@ export default function HomeBlock5() {
                 </div>
             </div>
 
-            <button className="transition-all ease-in-out text-[34px] text-[#ece3ca] bg-[#1a1611] hover:bg-[#ece3ca] hover:text-[#1a1611] w-[345px] p-2 self-center mt-20 border-solid border-[1.5px] border-[#ece3ca]">SEE ALL PROJECTS</button>
+            <button className="transition-all ease-in-out text-[24px] md:text-[34px] text-[#ece3ca] bg-[#1a1611] hover:bg-[#ece3ca] hover:text-[#1a1611] w-[260px] md:w-[345px] p-2 self-center mt-20 border-solid border-[1.5px] border-[#ece3ca]">SEE ALL PROJECTS</button>
         </div>
     );
 }
