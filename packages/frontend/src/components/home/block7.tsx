@@ -7,7 +7,7 @@ export default function HomeBlock7() {
             <div className="join join-vertical w-full text-[#ece3ca] mt-20 max-w-[1400px]">
                 <div className="collapse collapse-plus join-item border-base-300 border-t-[1px] border-b-[1px]">
                     <input type="radio" name="my-accordion-4" defaultChecked />
-                    <div className="collapse-title text-xl font-medium text-[32px] px-10 py-7">Bathroom Remodeling</div>
+                    <div className="collapse-title  font-medium text-[32px] px-10 py-7">Bathroom Remodeling</div>
                     <div className="collapse-content text-[24px] max-w-[790px] text-center">
                         <p>Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.</p>
                     </div>
@@ -15,7 +15,7 @@ export default function HomeBlock7() {
 
                 <div className="collapse collapse-plus join-item border-base-300 border-t-[1px] border-b-[1px]">
                     <input type="radio" name="my-accordion-4" defaultChecked />
-                    <div className="collapse-title text-xl font-medium text-[32px] px-10 py-7">Kitchen Renovations</div>
+                    <div className="collapse-title  font-medium text-[32px] px-10 py-7">Kitchen Renovations</div>
                     <div className="collapse-content text-[24px] max-w-[790px] text-center">
                         <p>Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.</p>
                     </div>
@@ -23,7 +23,7 @@ export default function HomeBlock7() {
 
                 <div className="collapse collapse-plus join-item border-base-300 border-t-[1px] border-b-[1px]">
                     <input type="radio" name="my-accordion-4" defaultChecked />
-                    <div className="collapse-title text-xl font-medium text-[32px] px-10 py-7">Exterior Makeovers</div>
+                    <div className="collapse-title  font-medium text-[32px] px-10 py-7">Exterior Makeovers</div>
                     <div className="collapse-content text-[24px] max-w-[790px] text-center">
                         <p>Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.</p>
                     </div>
@@ -31,7 +31,7 @@ export default function HomeBlock7() {
 
                 <div className="collapse collapse-plus join-item border-base-300 border-t-[1px] border-b-[1px]">
                     <input type="radio" name="my-accordion-4" defaultChecked />
-                    <div className="collapse-title text-xl font-medium text-[32px] px-10 py-7">Home Additions</div>
+                    <div className="collapse-title  font-medium text-[32px] px-10 py-7">Home Additions</div>
                     <div className="collapse-content text-[24px] max-w-[790px]">
                         <p>Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.</p>
                     </div>
@@ -39,7 +39,7 @@ export default function HomeBlock7() {
 
                 <div className="collapse collapse-plus join-item border-base-300 border-t-[1px] border-b-[1px]">
                     <input type="radio" name="my-accordion-4" defaultChecked />
-                    <div className="collapse-title text-xl font-medium text-[32px] px-10 py-7">Whole Home Renovations</div>
+                    <div className="collapse-title  font-medium text-[32px] px-10 py-7">Whole Home Renovations</div>
                     <div className="collapse-content text-[24px] max-w-[790px] text-center">
                         <p>Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.</p>
                     </div>
@@ -47,7 +47,7 @@ export default function HomeBlock7() {
 
                 <div className="collapse collapse-plus join-item border-base-300 border-t-[1px] border-b-[1px]">
                     <input type="radio" name="my-accordion-4" defaultChecked />
-                    <div className="collapse-title text-xl font-medium text-[32px] px-10 py-7">Custom Projects</div>
+                    <div className="collapse-title  font-medium text-[32px] px-10 py-7">Custom Projects</div>
                     <div className="collapse-content text-[24px] max-w-[790px] text-center">
                         <p>Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.</p>
                     </div>

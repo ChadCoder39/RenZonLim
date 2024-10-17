@@ -6,6 +6,7 @@ import HomeBlock5 from "@/components/home/block5";
 import HomeBlock6 from "@/components/home/block6";
 import HomeBlock7 from "@/components/home/block7";
 import HomeBlock8 from "@/components/home/block8";
+import HomeBlock9 from "@/components/home/block9";
 
 export default function Home() {
   return (
@@ -25,6 +26,8 @@ export default function Home() {
       <HomeBlock7/>
 
       <HomeBlock8/>
+
+      <HomeBlock9/>
     </>
   );
 }
