@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { Marcellus_SC } from "next/font/google";
 import "./globals.css";
 import AppHeader from "@/components/header";
+import AppFooter from "@/components/footer";
 
 const marcelusSC = Marcellus_SC({
   subsets: ['latin'],
-  display: 'swap',
   weight: '400'
 });
 
@@ -22,10 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="retro">
       <body
-        className={`${marcelusSC} antialiased`}
+        className={`${marcelusSC.className} antialiased`}
       >
         <AppHeader/>
         {children}
+        <AppFooter/>
       </body>
     </html>
   );

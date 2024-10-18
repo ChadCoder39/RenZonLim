@@ -8,7 +8,7 @@ export default function HomeBlock3() {
 
                 <span className="absolute top-20 lg:top-16 left-[50%] text-[#eae2d7] text-[40px] md:text-[56px] text-center" style={{ transform: 'translate(-50%, -50%)' }}>OUR ADVANTAGES</span>
             
-                <div className="flex flex-col">
+                <div className="flex flex-col py-14">
                     <div className="flex flex-row gap-4 items-end px-6 md:px-28 lg:px-64">
                         <span className="text-[52px] md:text-[75px] text-[#322920]">01</span>
                         <span className="text-[20px] md:text-[36px] text-[#322920] pb-2 md:pb-4">using ecological materials</span>
