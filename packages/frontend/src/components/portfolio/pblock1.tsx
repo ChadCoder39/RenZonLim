@@ -3,19 +3,30 @@ import Image from "next/image";
 
 export default function PortfolioBlock1() {
     return (
-        <div className="relative flex flex-col p-10 items-center text-[#322920] max-w-[1400px] mx-auto mt-36">
-            <div className="absolute top-0 left-0 w-full text-center z-10">
+        <div className="flex flex-col items-center justify-center p-6 flex-wrap">
+            <div className="mt-20">
                 <ShiftedTextHeader leftText="OUR" rightText="PORTFOLIO" />
             </div>
-            <div className="text-left w-1/2 pr-4">
-                <p className="mt-4 text-lg">
-                    We provide every project with individual approach, flexibility for our clients.
-                </p>
-                <p className="mt-2">↓</p>
-            </div>
-            <div className="w-1/2 flex justify-end">
-                <Image src={"/assets/images/portf1.png"} className="w-[640px] h-[215px]" width={640} height={500} alt="Portfolio Header" />
+
+            <div className="flex flex-col xl:flex-row gap-12 md:gap-20 mt-44 items-center justify-between">
+                <div className="text-left w-full xl:w-1/2 pr-4">
+                    <p className="mt-20 text-lg">
+                        We provide every project with an individual approach, ensuring flexibility for our clients.
+                    </p>
+                    <p className="mt-2">↓</p>
+                </div>
+
+                <div className="flex w-full xl:w-1/2 justify-end">
+                    <Image 
+                        src={"/assets/images/portf1.png"} 
+                        width={640} 
+                        height={215} 
+                        alt="Portfolio Header"
+                        className="max-h-[215px]"
+                    />
+                </div>
             </div>
         </div>
     );
 }
+
