@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: "Marcellus SC", serif;
-  font-weight: 400;
-  font-style: normal;
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
 }
 
 body {
