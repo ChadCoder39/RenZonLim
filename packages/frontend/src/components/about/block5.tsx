@@ -11,7 +11,7 @@ export default function AboutBlock5() {
                 </div>
 
 
-            <div className="flex justify-center p-6">s
+            <div className="flex justify-center p-6">
               <button
                 type="submit"
                 className="p-3 border border-[#322920] text-[#322920] text-[18px] uppercase rounded-md hover:bg-[#322920] hover:text-[#f5f0e1] transition-all duration-300">
