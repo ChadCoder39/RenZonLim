@@ -3,14 +3,22 @@ import pymongo
 from flask import Flask
 from flask import request, jsonify
 from flask_cors import CORS
+from potential_customers_schema import schema
 
 DB_client = pymongo.MongoClient("mongodb://localhost:27017")
 DB = DB_client["RenZomLim_DB"]
+try:
+    DB.create_collection("potential_customers", validator={"$jsonSchema": schema})
+except:
+    pass
+
 collection = DB["potential_customers"]
+
 
 app = Flask(__name__)
 cors = CORS(app)
 app.config["CORS_HEADERS"] = "Content-Type"
+
 
 
 # get requests
@@ -50,7 +58,7 @@ def delete_request():
     })
 
 @app.route("/update_request", methods = ["Post"])
-def create_request():
+def update_request():
     content = request.get_json()
     values = {
         "$set": { 
