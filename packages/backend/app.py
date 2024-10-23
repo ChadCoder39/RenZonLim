@@ -16,40 +16,54 @@ app.config["CORS_HEADERS"] = "Content-Type"
 # get requests
 @app.route("/get_request", methods = ["Get"])
 def get_request():
-    content = request.get_json()
-    collection.insert_one(content)
-    #request.query_string()
-    pulled_data = collection.find_one({"Name":content["Name"]})
+    args = request.args
+    pulled_data = collection.find_one({ 
+        "name": args.get("name") 
+    })
     return jsonify(pulled_data)
 
 @app.route("/get_requests", methods = ["Get"])
 def get_requests():
-    content = request.get_json()
-    collection.insert_one(content)
-    #request.query_string()
     pulled_data = collection.find()
     return jsonify(pulled_data)
+
 
 # post requests
 @app.route("/create_request", methods = ["Post"])
 def create_request():
     content = request.get_json()
-    collection.insert_one(content)
-    return jsonify({"done": True})
+    collection.insert_one(content["data"])
+
+    return jsonify({
+        "done": True
+    })
 
 @app.route("/delete_request", methods = ["Post"])
 def delete_request():
     content = request.get_json()
-    collection.delete_one({"Name":content["Name"]})
-    return jsonify({"done": True})
+    collection.delete_one({ 
+        "name": content["data"]["name"]
+    })
+
+    return jsonify({
+        "done": True
+    })
 
 @app.route("/update_request", methods = ["Post"])
 def create_request():
     content = request.get_json()
-    values = {"$set": {"Score": content['Score']}}
-    collection.update_one({"Name":content["Name"]}, values)
-    return jsonify({"done": True})
+    values = {
+        "$set": { 
+            "score": content["data"]['score'] 
+        }
+    }
+    collection.update_one({ 
+        "name": content["data"]["name"] 
+    }, values)
 
+    return jsonify({
+        "done": True
+    })
 
 
 if __name__ == "__main__":
