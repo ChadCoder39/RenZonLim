@@ -1,12 +1,18 @@
+import os
 import pymongo
-
-from flask import Flask
-from flask import request, jsonify
+from flask import Flask, request, jsonify
 from flask_cors import CORS
+from dotenv import load_dotenv
 from potential_customers_schema import schema
 
-DB_client = pymongo.MongoClient("mongodb://localhost:27017")
-DB = DB_client["RenZomLim_DB"]
+load_dotenv()
+
+MONGO_URI = os.getenv("MONGO_URI")
+DB_NAME = os.getenv("MONGO_DB_NAME")
+
+DB_client = pymongo.MongoClient(MONGO_URI)
+DB = DB_client[DB_NAME]
+
 try:
     DB.create_collection("potential_customers", validator={"$jsonSchema": schema})
 except:
@@ -14,11 +20,10 @@ except:
 
 collection = DB["potential_customers"]
 
-
 app = Flask(__name__)
+
 cors = CORS(app)
 app.config["CORS_HEADERS"] = "Content-Type"
-
 
 
 # get requests
