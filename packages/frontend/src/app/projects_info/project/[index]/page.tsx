@@ -14,7 +14,6 @@ export default function ProjectPage({params}: {params: {index: number}}) {
 
           <ProjectBlock4/>
 
-
         </>
       );
     
