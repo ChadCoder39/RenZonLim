@@ -11,7 +11,7 @@ type Inputs = {
 };
 
 
-export default function ServiceBlock4() {
+export default function ProjectBlock4() {
     const { register, handleSubmit, formState: { errors }, reset } = useForm<Inputs>()
     const onSubmit: SubmitHandler<Inputs> = async(data) => {
       console.log(data);
