@@ -1,7 +1,10 @@
 import Image from "next/image";
 import ShiftedTextHeader from "../shifted-text-header";
+import data from "@/app/about/data.json";
 
 export default function AboutBlock1() {
+    const content = data.about.block1;
+    
     return (
         <div className="flex flex-col items-center justify-center p-6 flex-wrap">
             <ShiftedTextHeader leftText="ABOUT OUR" rightText="COMPANY" />
@@ -14,6 +17,7 @@ export default function AboutBlock1() {
 
             <div className="flex flex-col items-center justify-center text-[28px] max-w-[665px] text-center mt-10">
                 small description about company, what we do, where, how long and so on
+                {content.a}
                 <div className="flex w-full flex-col justify-center items-center mt-6">
                     <div className="divider max-w-[665px]"></div>
                 </div>
