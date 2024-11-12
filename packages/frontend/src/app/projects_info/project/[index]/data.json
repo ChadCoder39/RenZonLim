@@ -1,0 +1,33 @@
+{
+    "project_info": {
+        "block1": {
+            "t_1": "Project description: What was before, which problems the client had?",
+            "t_2": "Everyone has the right to freedom of thought, conscience, and religion; this right includes freedom to change their religion or belief, and freedom, either alone or in community with others and in public or private.",
+            "t_3": "Everyone has the right to freedom of thought, conscience, and religion; this right includes freedom to change their religion or belief, and freedom.",
+            "t_4": "LEARN MORE",
+            "image_1":"/assets/images/proj1.0.png"
+
+        },
+        "block2": {
+            "image_1": "/assets/images/proj1.1.png",
+            "image_2": "/assets/images/proj1.2.png",
+            "t_1": "Challenges & Solutions:",
+            "t_2": "Historical Integrity vs. Modern Necessities:The primary challenge was ensuring the seamless integration of modern amenities while preserving the rich history of the hotel. Our solution was to work closely with historians and design consultants, using materials that complemented the original structure and design.",
+            "t_3": "Space Constraints:Given the hotel’s central location and historical significance, we had limited space for renovation work. We used innovative space-saving techniques and design solutions to ensure each room felt spacious, functional, and luxurious.",
+            "image_3": "/assets/images/proj1.1.png",
+            "image_4": "/assets/images/proj1.2.png",
+            "t_4": "Results",
+            "t_5": "Revitalized Aesthetic:The De Ware Jacob Hotel now boasts a refreshed look, embodying the grandeur of its historic past and the allure of modern design.",
+            "t_6": "Enhanced Guest Experience: Guests now enjoy a harmonious blend of luxury, comfort, and a touch of Amsterdam’s storied past.",
+            "t_7": "Sustainability:The hotel’s renovation achieved a reduced carbon footprint, affirming the hotel’s commitment to environmental stewardship.",
+            "t_8": "Positive Reviews: Post-renovation, the hotel has received an uptick in positive guest reviews and has seen a notable increase in bookings."
+        },
+        "block3": {
+            "image_1": "/assets/images/serv4.png",
+            "image_2": "/assets/images/serv5.png",
+            "image_3": "/assets/images/serv6.png",
+            "image_4": "/assets/images/serv7.png",
+            "image_5": "/assets/images/serv8.png"
+        }
+    }
+}

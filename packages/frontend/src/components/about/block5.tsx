@@ -1,7 +1,9 @@
 import ShiftedTextHeader from "../shifted-text-header";
 import Image from "next/image";
+import data from "@/app/about/data.json";
 
 export default function AboutBlock5() {
+    const content = data.about.block5;
     return (
         <div>
             <div className="flex justify-center items-center h-screen">
@@ -15,7 +17,7 @@ export default function AboutBlock5() {
               <button
                 type="submit"
                 className="p-3 border border-[#322920] text-[#322920] text-[18px] uppercase rounded-md hover:bg-[#322920] hover:text-[#f5f0e1] transition-all duration-300">
-                APPLY FOR A CONSULTATION NOW
+                {content.t_1}
                 </button>
             </div>
         </div>

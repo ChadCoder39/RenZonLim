@@ -1,0 +1,24 @@
+{
+    "services": {
+        "block1": {
+            "t_1": "Service Name",
+            "t_2": "Service description, a few words about what problems it solves, and so on.",
+            "image_1": "/assets/images/serv1.png"
+        },
+        "block2": {
+            "t_1": "Before",
+            "image_1": "/assets/images/serv2.png",
+            "t_2": "Description for the first image goes here. Provide details specific to the first image.",
+            "t_3": "Description for the second image goes here. Provide details specific to the second image.",
+            "image_2":"/assets/images/serv3.png"
+        },
+        "block3": {
+            "t_1": "Result",
+            "image_1": "/assets/images/serv4.png",
+            "image_2": "/assets/images/serv5.png",
+            "image_3": "/assets/images/serv6.png",
+            "image_4": "/assets/images/serv7.png",
+            "image_5": "/assets/images/serv8.png"
+        }
+    }
+}

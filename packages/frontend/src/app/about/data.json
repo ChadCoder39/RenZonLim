@@ -1,20 +1,72 @@
 {
     "about": {
         "block1": {
-            "a": "text",
-            "jauohjdouiawhjduawo": "ldaokdpoawkdpwad"
+            "t_1": "Small description about company, what we do, where, how long and so on",
+            "t_2": "Some text about company history, how it started, first projects, failures, team, motivation, business scaling",
+            "t_3": "Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private",
+            "t_4": "Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek"
         },
         "block2": {
-            "a": "text"
+            "t_1": "OUR MAIN ACHIEVEMENTS",
+            "t_2": "01",
+            "t_3": "Getting faster in renovation process with the same hight quality level - 1 month for major renovation from scratch in your apartment",
+            "t_4": "02",
+            "t_5": "A team of top professionals for perfect results in all types of repairs",
+            "t_6": "03",
+            "t_7": "Cooperation with manufacturers of building materials, which allows us to offer affordable prices to our clients"
         },
         "block3": {
-            "a": "text"
+            "t_1": "Explore our key areas of expertise",
+            "t_2": "Contact us today to discuss your renovation project and learn more about how our specialized services can meet your needs.",
+            "services-list": [
+                {
+                    "title": "Bathroom Remodeling",
+                    "description": "Revitalize your bathroom with elegant designs and functional layouts tailored to meet your personal style and comfort."
+                },
+                {
+                    "title": "Kitchen Remodeling",
+                    "description": "Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances."
+                },
+                {
+                    "title": "Home Additions",
+                    "description": "Expand your living space with seamless home additions, designed to match the existing style and enhance your home's value."
+                },
+                {
+                    "title": "Basement Renovations",
+                    "description": "Turn your basement into a cozy living space, home theater, or additional bedroom with custom finishes and smart layouts."
+                },
+                {
+                    "title": "Exterior Renovations",
+                    "description": "Boost curb appeal and protect your home with high-quality exterior renovations, including siding, windows, and roofing."
+                },
+                {
+                    "title": "Outdoor Living Spaces",
+                    "description": "Create your perfect outdoor oasis with custom decks, patios, and landscaping that bring your backyard dreams to life."
+                }
+            ]
         },
         "block4": {
-            "a": "text"
+            "t_1": "We have assembled a team of the best professionals in various areas of repair work to create the best repairs for you.",
+            "services-list": [
+                {
+                    "title": "Member Name",
+                    "description": " Personal description, professional field, education, experience and so on.",
+                    "photo":"/assets/images/about1.png"
+                },
+                {
+                    "title": "Member Name",
+                    "description": "Personal description, professional field, education, experience and so on.",
+                    "photo":"/assets/images/about1.png"
+                },
+                {
+                    "title": "Member Name",
+                    "description": " Personal description, professional field, education, experience and so on.",
+                    "photo":"/assets/images/about1.png"
+                }
+            ]
         },
         "block5": {
-            "a": "text"
+            "t_1": "APPLY FOR CONSULTATION NOW"
         }
     }
 }

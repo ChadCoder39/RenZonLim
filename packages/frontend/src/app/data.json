@@ -1,0 +1,83 @@
+{
+    "app": {
+      "block1": {
+        "n_1": "APARTMENT",
+        "n_2": "RENOVATION",
+        "n_3": "Best apart/office renovation services in Netherland",
+        "n_4": "Calculate the cost of repairs now",
+        "image_1": "/assets/icons/arrrow-right-up.png"
+      },
+      "block2": {
+        "image_1": "/assets/images/home_block_2.png",
+        "n_1": "Some text about company achievements and history, goals and motivation and so on.",
+        "n_2": "Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private",
+        "n_3": "Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek",
+        "n_4": "LEARN MORE"
+      },
+      "block3": {
+        "image_1":"/assets/images/home_block_3.png",
+        "n_1": "OUR ADVANTAGES",
+        "n_2": "01",
+        "n_3": "using ecological materials",
+        "n_4": "02",
+        "n_5": "fast and quality result",
+        "n_6": "03",
+        "n_7": "working without days off",
+        "n_8": "04",
+        "n_9": "affordable prices for everyone",
+        "n_10": "05",
+        "n_11": "best service in Netherlands"
+      },
+      "block4": {
+        "n_1": "",
+        "n_2": "",
+        "n_3": "",
+        "n_4": "",
+        "n_5": ""
+      },
+      "block5": {
+        "n_1": "",
+        "n_2": "",
+        "n_3": "",
+        "n_4": "",
+        "n_5": "",
+        "n_6": "",
+        "n_7": "",
+        "n_8": "",
+        "n_9": "",
+        "n_10": "",
+        "n_11": "",
+        "n_12": "",
+        "n_13": ""
+      },
+      "block6": {
+        "n_1": "",
+        "n_2": "",
+        "n_3": "",
+        "n_4": "",
+        "n_5": "",
+        "n_6": "",
+        "n_7": "",
+        "n_8": ""
+      },
+      "block7": {
+        "n_1": "",
+        "n_2": "",
+        "n_3": "",
+        "n_4": "",
+        "n_5": "",
+        "n_6": "",
+        "n_7": "",
+        "n_8": "",
+        "n_9": "",
+        "n_10": "",
+        "n_11": "",
+        "n_12": "",
+        "n_13": "",
+        "n_14": "",
+        "n_15": ""
+      },
+      "block8": {}
+    }
+  }
+  

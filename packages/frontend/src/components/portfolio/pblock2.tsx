@@ -1,7 +1,9 @@
 import ShiftedTextHeader from "../shifted-text-header";
 import Image from "next/image";
+import data from "@/app/portfolio/data.json";
 
 export default function PortfolioBlock2() {
+    const content = data.portfolio.block2;
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-10 max-w-[1400px] mx-auto">
             {Array.from({ length: 6 }, (_, index) => (

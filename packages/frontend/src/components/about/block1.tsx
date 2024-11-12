@@ -16,8 +16,7 @@ export default function AboutBlock1() {
             </div>
 
             <div className="flex flex-col items-center justify-center text-[28px] max-w-[665px] text-center mt-10">
-                small description about company, what we do, where, how long and so on
-                {content.a}
+                {content.t_1}
                 <div className="flex w-full flex-col justify-center items-center mt-6">
                     <div className="divider max-w-[665px]"></div>
                 </div>
@@ -27,13 +26,13 @@ export default function AboutBlock1() {
             <div className="flex flex-col xl:flex-row gap-20 mt-10 justify-center items-center">
                 <div className="flex flex-col gap-5 max-w-xl text-center lg:text-start justify-center items-center">
                     <span className="text-[28px]">
-                        some text about company history, how it started, first projects, failures, team, motivation, business scaling
+                    {content.t_2}
                     </span>
                     <span className="text-[28px]">
-                        Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private
+                    {content.t_3}
                     </span>
                     <span className="text-[28px]">
-                        Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek
+                    {content.t_4}
                     </span>
                 </div>
 
