@@ -29,55 +29,57 @@
         "n_11": "best service in Netherlands"
       },
       "block4": {
-        "n_1": "",
-        "n_2": "",
-        "n_3": "",
-        "n_4": "",
-        "n_5": ""
+        "n_1": "apartment renovation",
+        "n_2": "some text about apartment renovation, description of the renovation process and so on",
+        "n_3": "houses renovation",
+        "n_4": "some text about  houses renovation, description of the renovation process and so on",
+        "image_1": "/assets/icons/details.png",
+        "image_2": "/assets/images/home_block_4.png",
+        "image_3": "/assets/images/home_block_4_widden.png"
       },
       "block5": {
-        "n_1": "",
-        "n_2": "",
-        "n_3": "",
-        "n_4": "",
-        "n_5": "",
-        "n_6": "",
-        "n_7": "",
-        "n_8": "",
-        "n_9": "",
-        "n_10": "",
-        "n_11": "",
-        "n_12": "",
-        "n_13": ""
+        "image_1": "/assets/images/home_block_5_1.png",
+        "n_2": "Renovation De Ware Jacob Hotel",
+        "image_3": "/assets/images/home_block_5_2.png",
+        "n_4": "Renovation De Ware Jacob Hotel",
+        "image_5": "/assets/images/home_block_5_4.png",
+        "n_6": "Renovation De Ware Jacob Hotel",
+        "image_7": "/assets/images/home_block_5_3.png",
+        "n_8": "Renovation De Ware Jacob Hotel"
       },
       "block6": {
-        "n_1": "",
-        "n_2": "",
-        "n_3": "",
-        "n_4": "",
-        "n_5": "",
-        "n_6": "",
-        "n_7": "",
-        "n_8": ""
+        "image_1": "/assets/icons/paint-roller.png",
+        "image_2": "/assets/images/home_block_6_1.png",
+        "n_3": "20 YEARS ON THE MARKET",
+        "image_4": "/assets/images/home_block_6_2.png",
+        "n_5": "100+ PROJECTS",
+        "n_6": "We are a leading construction and renovation company",
+        "n_7": "80+ CLIENTS",
+        "n_8": "Testimonials from our clients are a guarantee of quality work"
       },
       "block7": {
-        "n_1": "",
-        "n_2": "",
-        "n_3": "",
-        "n_4": "",
-        "n_5": "",
-        "n_6": "",
-        "n_7": "",
-        "n_8": "",
-        "n_9": "",
-        "n_10": "",
-        "n_11": "",
-        "n_12": "",
-        "n_13": "",
-        "n_14": "",
-        "n_15": ""
+        "n_1": "Explore our key areas of expertise",
+        "n_2": "Contact us today to discuss your renovation project and learn more about how our specialized services can meet your needs.",
+        "n_3": "Bathroom Remodeling",
+        "n_4": "Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.",
+        "n_5": "Kitchen Renovations",
+        "n_6": "Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.",
+        "n_7": "Exterior Makeovers",
+        "n_8": "Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.",
+        "n_9": "Whole Home Renovations",
+        "n_10": "Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.",
+        "n_11": "Custom Projects",
+        "n_12": "Transform your kitchen into a stunning and functional heart of your home, from custom cabinetry to state-of-the-art appliances.",
+        "n_13": "Whole Home Renovations",
+        "n_14": "Revitalizing Your Home from Top to Bottom"
       },
-      "block8": {}
+      "block8": {
+        "n_1":"project name",
+        "n_2":"Client Name",
+        "n_3":"review text, grateful words, result description and so on.",
+        "image_1":"/assets/images/block_8.png",
+        "image_2":"/assets/images/block_8.png"
+      }
     }
   }
   

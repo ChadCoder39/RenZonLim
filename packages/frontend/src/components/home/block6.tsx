@@ -1,31 +1,33 @@
 import Image from "next/image";
+import data from "@/app/data.json";
 
 export default function HomeBlock6() {
+    const content = data.app.block6;
     return (
         <div className="flex flex-col gap-0 px-10">
             <div className="flex flex-row justify-evenly items-center min-h-[512px] flex-wrap">
                 <div className="flex items-center justify-center min-h-[300px] md:min-h-[512px]">
-                    <Image src={"/assets/icons/paint-roller.png"} alt="paint-roller" width={83} height={83} />
+                    <Image src={content.image_1} alt="paint-roller" width={83} height={83} />
                 </div>
 
-                <Image src={"/assets/images/home_block_6_1.png"} alt="i1" width={584} height={512} />
+                <Image src={content.image_2} alt="i1" width={584} height={512} />
 
                 <div className="flex items-center justify-center min-h-[300px] md:min-h-[512px]">
-                    <span className="text-[44px] text-wrap max-w-[200px] text-center md:text-start">20 YEARS ON THE MARKET</span>
+                    <span className="text-[44px] text-wrap max-w-[200px] text-center md:text-start">{content.n_3}</span>
                 </div>
             </div>
 
             <div className="flex flex-row justify-evenly items-center min-h-[512px] flex-wrap">
-                <Image src={"/assets/images/home_block_6_2.png"} alt="i1" width={530} height={530} />
+                <Image src={content.image_4} alt="i2" width={530} height={530} />
 
                 <div className="flex flex-col items-start justify-center min-h-[300px] md:min-h-[512px] max-w-[400px] text-center md:text-start">
-                    <span className="text-[44px] w-full">100+ PROJECTS</span>
-                    <span className="text-[26px]">We are a leading construction and renovation company</span>
+                    <span className="text-[44px] w-full">{content.n_5}</span>
+                    <span className="text-[26px]">{content.n_6}</span>
                 </div>
                 
                 <div className="flex flex-col items-start justify-center min-h-[300px] md:min-h-[512px] max-w-[320px] text-center md:text-start">
-                    <span className="text-[44px] w-full">80+ CLIENTS</span>
-                    <span className="text-[26px]">Testimonials from our clients are a guarantee of quality work</span>
+                    <span className="text-[44px] w-full">{content.n_7}</span>
+                    <span className="text-[26px]">{content.n_8}</span>
                 </div>
             </div>
         </div>
