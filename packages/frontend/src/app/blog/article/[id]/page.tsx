@@ -1,3 +1,5 @@
-export default function ArticlePage({params}: {params: {name: string}}) {
-  return <div className="mt-40">ArticlePage {params.name}</div>;
+import ArticleBlock from "@/components/articles/ablock1";
+
+export default function ArticlePage({params}: {params: {id: string}}) {
+  return <ArticleBlock id={params.id} />;
 }
