@@ -1,0 +1,20 @@
+{
+    "blog": {
+        "block1": {
+            "n_1": "Blog Name",
+            "n_2": "Blog description, a few words about what this blog covers, topics discussed, and insights shared.",
+            "image_1": "/assets/images/blog1.png"
+        },
+        "block2": {
+            "image_1": "/assets/images/blog2.png",
+            "n_1": "ARTICLE NAME",
+            "n_2": "Description of the article, explaining the topic and addressing common questions or problems.",
+            "image_2": "/assets/images/blog3.png",
+            "n_3": "ARTICLE NAME",
+            "n_4": "Description of the article, explaining the topic and addressing common questions or problems.",
+            "image_3": "/assets/images/blog4.png",
+            "n_5": "ARTICLE NAME",
+            "n_6": "Description of the article, explaining the topic and addressing common questions or problems."
+        }
+    }
+}
