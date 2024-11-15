@@ -1,5 +1,6 @@
 import Image from "next/image";
 import data from "@/app/blog/data.json";
+import Link from 'next/link'
 
 export default function BlogBlock2() {
     const content = data.blog.block2;
@@ -13,7 +14,9 @@ export default function BlogBlock2() {
                         <p className="mt-4 text-[#352920]">
                             {content.n_2}
                         </p>
+                        <Link href="/blog/article/renovation-in-scandinavian-style" passHref>
                         <button className="mt-4 bg-[#352920] text-white py-2 px-6 rounded">LEARN MORE</button>
+                        </Link>
                     </div>
                 </div>
 
@@ -24,7 +27,9 @@ export default function BlogBlock2() {
                         <p className="mt-4 text-[#352920]">
                             {content.n_4}
                         </p>
+                        <Link href="/blog/article/renovation-in-scandinavian-style" passHref>
                         <button className="mt-4 bg-[#352920] text-white py-2 px-6 rounded">LEARN MORE</button>
+                        </Link>
                     </div>
                 </div>
 
@@ -35,7 +40,9 @@ export default function BlogBlock2() {
                         <p className="mt-4 text-[#352920]">
                             {content.n_6}
                         </p>
+                        <Link href="/blog/article/renovation-in-scandinavian-style" passHref>
                         <button className="mt-4 bg-[#352920] text-white py-2 px-6 rounded">LEARN MORE</button>
+                        </Link>
                     </div>
                 </div>
             </div>

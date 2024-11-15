@@ -1,5 +1,5 @@
 import Image from "next/image";
-import data from "@/app/projects_info/project/[index]/data.json";
+import data from "@/app/projects_info/project/[id]/data.json";
 
 export default function ProjectBlock3({id}: {id: string}) {
     const content = data.project_info.projects.find(i => i.id == id)?.block3;

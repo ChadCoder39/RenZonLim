@@ -1,4 +1,5 @@
 import data from "@/app/about/data.json";
+import Link from 'next/link'
 
 export default function AboutBlock3() {
     const content = data.about.block3;
@@ -23,8 +24,10 @@ export default function AboutBlock3() {
             }
                 
             </div>
-
+            
+            <Link href="/contact" passHref>
             <button className="transition-all ease-in-out text-[24px] md:text-[34px] text-[#ece3ca] bg-[#1a1611] hover:bg-[#ece3ca] hover:text-[#1a1611] p-2 self-center my-20 border-solid border-[1.5px] border-[#ece3ca] px-10">APPLY FOR A CONSULTATION NOW</button>
+            </Link>
         </div>
     );
 }

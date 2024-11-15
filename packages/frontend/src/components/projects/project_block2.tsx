@@ -1,5 +1,5 @@
 import Image from "next/image";
-import data from "@/app/projects_info/project/[index]/data.json";
+import data from "@/app/projects_info/project/[id]/data.json";
 
 const FormatedText = ({text}: {text: string}) => {
     return (

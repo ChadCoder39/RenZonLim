@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ShiftedTextHeader from "../shifted-text-header";
 import data from "@/app/data.json";
+import Link from 'next/link'
 
 const ReviewCard = ({
     projectName,

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ShiftedTextHeader from "../shifted-text-header";
+import Link from "next/link";
 import data from "@/app/data.json";
 
 const DetailsCard = (props: {
@@ -12,7 +13,9 @@ const DetailsCard = (props: {
             <span className="text-[28px]">{props.title}</span>
             <span className="text-[22px]">{props.description}</span>
 
+            <Link href="/portfolio" passHref> 
             <Image src={content.image_1} className="w-48 absolute -bottom-14 -left-14" width={400} height={450} alt="details"/>
+            </Link>
         </div>
     );
 }

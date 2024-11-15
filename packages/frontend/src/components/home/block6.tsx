@@ -1,5 +1,6 @@
 import Image from "next/image";
 import data from "@/app/data.json";
+import Link from 'next/link'
 
 export default function HomeBlock6() {
     const content = data.app.block6;
