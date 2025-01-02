@@ -9,9 +9,9 @@
       },
       "block2": {
         "image_1": "/assets/images/home_block_2.png",
-        "n_1": "Some text about company achievements and history, goals and motivation and so on.",
-        "n_2": "Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private",
-        "n_3": "Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek",
+        "n_1": "Our company is dedicated to transforming homes and lives through exceptional craftsmanship and innovative design. With three years of expertise in the industry, we’ve built a reputation for delivering quality repairs and stunning kitchen redesigns that exceed expectations.",
+        "n_2": "Our mission is to bring your vision to life by creating spaces that seamlessly combine functionality, beauty, and durability.",
+        "n_3": "Whether you’re looking for a sleek, modern kitchen or a warm, traditional design, we tailor every project to your needs and preferences. Your satisfaction is our top priority at every step of the process.",
         "n_4": "LEARN MORE"
       },
       "block3": {
@@ -30,9 +30,13 @@
       },
       "block4": {
         "n_1": "apartment renovation",
-        "n_2": "some text about apartment renovation, description of the renovation process and so on",
+        "n_2": "Transform your apartment into a luxurious haven with our exclusive renovation services. We specialize in high-end design and meticulous craftsmanship, creating sophisticated spaces tailored to your lifestyle.",
         "n_3": "houses renovation",
-        "n_4": "some text about  houses renovation, description of the renovation process and so on",
+        "n_4": "Redefine your living experience with our exclusive house renovation services. We specialize in transforming homes into luxurious, personalized sanctuaries through exquisite craftsmanship and premium designs. From bespoke interiors to state-of-the-art finishes, every detail is thoughtfully curated to reflect your style and enhance your lifestyle. Trust us to bring timeless elegance and modern comfort to your home.",
+        "n_5": "commercial renovation",
+        "n_6": "Elevate your business space with our exclusive commercial renovation services. We specialize in creating sophisticated, functional environments that reflect your brand’s identity and vision. From upscale offices to luxury retail spaces, our expert team delivers precision craftsmanship, premium materials, and innovative designs to ensure your commercial property stands out and inspires success.",
+        "n_7": "kitchen renovation",
+        "n_8": "Transform your kitchen into a masterpiece of elegance and functionality with our exclusive renovation services. We specialize in crafting bespoke designs, using premium materials and state-of-the-art finishes to create a space that perfectly blends style and practicality. From luxurious layouts to custom cabinetry, let us bring your dream kitchen to life.",
         "image_1": "/assets/icons/details.png",
         "image_2": "/assets/images/home_block_4.png",
         "image_3": "/assets/images/home_block_4_widden.png"

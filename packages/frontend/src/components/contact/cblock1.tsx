@@ -12,11 +12,10 @@ export default function ContactBlock1() {
 
           <div className="flex flex-col items-start gap-6 flex-shrink w-full">
             <div className="text-left">
-              <span className="text-[20px] md:text-[24px] mt-4 block">Some contact information</span>
-              <span className="text-[20px] md:text-[24px] block">Location</span>
-              <span className="text-[20px] md:text-[24px] block">
-                Social Medias, Instagram, WhatsApp, Telegram, and so on
-              </span>
+              <span className="text-[20px] md:text-[24px] mt-4 block">contact information</span>
+              <span className="text-[20px] md:text-[24px] block">location: Kwakelsepad 91. 1424 BX De Kwakel</span>
+              <span className="text-[28px] text-center md:text-start block">email: ukr.holland@gmail.com</span>
+              <span className="text-[28px] text-center md:text-start">whatsapp +31(63)8236862</span>
             </div>
 
             <div className="flex flex-col gap-6">
@@ -35,8 +34,8 @@ export default function ContactBlock1() {
             </div>
 
             <div className="flex flex-col items-start">
-              <span className="text-[20px] md:text-[24px]">Location Address</span>
-              <span className="text-[20px] md:text-[24px] mt-2">Telephone Number</span>
+              <span className="text-[26px] w-full md:w-[390px] text-center">Kwakelsepad 91. 1424 BX De Kwakel</span>
+              <span className="text-[26px] w-full md:w-[390px] text-center">+31(63)8236862</span>
             </div>
           </div>
 

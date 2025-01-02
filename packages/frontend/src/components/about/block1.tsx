@@ -24,17 +24,20 @@ export default function AboutBlock1() {
             
 
             <div className="flex flex-col xl:flex-row gap-20 mt-10 justify-center items-center">
+
                 <div className="flex flex-col gap-5 max-w-xl text-center lg:text-start justify-center items-center">
-                    <span className="text-[28px]">
-                    {content.t_2}
-                    </span>
-                    <span className="text-[28px]">
-                    {content.t_3}
-                    </span>
-                    <span className="text-[28px]">
-                    {content.t_4}
-                    </span>
+                <p className="text-[28px] font-normal">{content.t_2}</p>
+                <span className="text-[28px] font-bold">{content.t_3}</span>
+                <div className="text-[28px]">
+                    <span className="font-semibold">{content.t_4}</span>
+                    <p className="text-[28px] font-normal block mt-1">{content.t_5}</p>
                 </div>
+                <div className="text-[28px]">
+                    <span className="font-semibold">{content.t_6}</span>
+                    <p className="text-[28px] font-normal block mt-1">{content.t_7}</p>
+                </div>
+            </div>
+
 
                 <Image src={"/assets/images/about_block_1_3.png"} width={724} height={652} alt="block-1-3" />
             </div>

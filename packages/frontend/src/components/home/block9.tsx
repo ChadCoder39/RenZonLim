@@ -9,12 +9,10 @@ export default function HomeBlock9() {
             <div className="flex flex-row flex-wrap gap-20 lg:gap-40 mt-36 justify-center pt-0 md:pt-12 pb-12">
                 <div className="flex flex-col gap-10 justify-between">
                     <div className="flex flex-col gap-2">
-                        <span className="text-[28px] text-center md:text-start">some contact information</span>
-                        <span className="text-[28px] text-center md:text-start">location</span>
-                        <span className="text-[28px] text-center md:text-start">social medias, instagram</span>
-                        <span className="text-[28px] text-center md:text-start">whatsapp</span>
-                        <span className="text-[28px] text-center md:text-start">telegram</span>
-                        <span className="text-[28px] text-center md:text-start">so on</span>
+                        <span className="text-[28px] text-center md:text-start">contact information</span>
+                        <span className="text-[28px] text-center md:text-start">location: Kwakelsepad 91. 1424 BX De Kwakel</span>
+                        <span className="text-[28px] text-center md:text-start">whatsapp +31(63)8236862</span>
+                        <span className="text-[28px] text-center md:text-start">email:ukr.holland@gmail.com</span>
                     </div>
 
                     <div className="flex flex-col gap-4">
@@ -34,7 +32,8 @@ export default function HomeBlock9() {
                         </div>
                     </div>
 
-                    <span className="text-[26px] w-full md:w-[390px] text-center">location adress telephone number</span>
+                    <span className="text-[26px] w-full md:w-[390px] text-center">Kwakelsepad 91. 1424 BX De Kwakel</span>
+                    <span className="text-[26px] w-full md:w-[390px] text-center">+31(63)8236862</span>
                 </div>
 
 

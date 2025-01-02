@@ -21,7 +21,7 @@ export default function AppFooter() {
 
       <div className="text-right">
         <p className="text-[16px] font-medium">+31678542975</p>
-        <p className="text-[16px] font-medium">LOCATION ADDRESS</p>
+        <p className="text-[16px] font-medium">Kwakelsepad 91. 1424 BX De Kwakel</p>
       </div>
     </div>
   );

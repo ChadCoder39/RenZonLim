@@ -2,9 +2,12 @@
     "about": {
         "block1": {
             "t_1": "Small description about company, what we do, where, how long and so on",
-            "t_2": "Some text about company history, how it started, first projects, failures, team, motivation, business scaling",
-            "t_3": "Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private",
-            "t_4": "Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek"
+            "t_2": "Our mission is to bring your vision to life, creating spaces that combine functionality, beauty, and durability. Whether you’re seeking a modern, minimalist kitchen or a cozy, traditional design, we prioritize your needs and preferences at every step.",
+            "t_3": "What We Offer",
+            "t_4": "Quality Repairs:",
+            "t_5": "From structural fixes to aesthetic improvements, we ensure every detail is handled with precision and care.",
+            "t_6": "Kitchen Redesigns:",
+            "t_7": "The kitchen is the heart of the home, and we specialize in creating layouts that enhance both style and efficiency. Our team works with you to select materials, finishes, and designs that reflect your personality."
         },
         "block2": {
             "t_1": "OUR MAIN ACHIEVEMENTS",

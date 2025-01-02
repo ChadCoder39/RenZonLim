@@ -33,8 +33,8 @@ export default function HomeBlock4() {
                 </div>
 
                 <div className="flex flex-col gap-20">
-                    <DetailsCard title={content.n_1} description={content.n_2}/>
-                    <DetailsCard title={content.n_3} description={content.n_4}/>
+                    <DetailsCard title={content.n_5} description={content.n_6}/>
+                    <DetailsCard title={content.n_7} description={content.n_8}/>
                 </div>
 
                 <Image src={content.image_2} alt="left-img" width={469} height={504} className="mt-20 lg:mt-0" />

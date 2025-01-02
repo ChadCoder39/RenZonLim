@@ -1,8 +1,8 @@
 {
     "services": {
         "block1": {
-            "t_1": "Service Name",
-            "t_2": "Service description, a few words about what problems it solves, and so on.",
+            "t_1": "Kitchen Renovation",
+            "t_2": "Transform your kitchen into a masterpiece of elegance and functionality with our exclusive renovation services. We specialize in crafting bespoke designs, using premium materials and state-of-the-art finishes to create a space that perfectly blends style and practicality. From luxurious layouts to custom cabinetry, let us bring your dream kitchen to life.",
             "image_1": "/assets/images/serv1.png"
         },
         "block2": {
